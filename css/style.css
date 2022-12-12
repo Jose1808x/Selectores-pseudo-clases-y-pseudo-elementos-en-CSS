@@ -1,0 +1,17 @@
+.boton{
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.boton::before{
+    content: 'Pasa por encima';
+}
+.boton:hover{
+    color: white;
+    background-color:darkgreen ;
+}
+.boton:hover::before{
+    content: '¡Hecho!';
+    transition: 0.3s;
+}
